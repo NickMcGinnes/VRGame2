@@ -14,7 +14,10 @@
           </e>
         </e>
         <e p="Script" t="Include">
+          <e p="LaserButton.cs" t="Include" />
+          <e p="MouseLook.cs" t="Include" />
           <e p="ScrollTexture.cs" t="Include" />
+          <e p="SendClick.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
