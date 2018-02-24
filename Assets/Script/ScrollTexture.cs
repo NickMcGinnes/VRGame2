@@ -13,7 +13,7 @@ public class ScrollTexture : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		_offset -=  5 * Time.deltaTime;
+		_offset -=  4 * Time.deltaTime;
 		Vector2 vecOffset = new Vector2(0, _offset);
 		gameObject.GetComponent<Renderer>().material.mainTextureOffset = vecOffset;
 	}

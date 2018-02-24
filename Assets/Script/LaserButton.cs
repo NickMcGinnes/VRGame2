@@ -27,10 +27,18 @@ public class LaserButton : MonoBehaviour
 	IEnumerator LaserControl()
 	{
 		_coRouIsRunning = true;
+
+		Ray ray;
+		RaycastHit hit;
+		
 		float t = 0;
+		
+		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-50,10),Random.Range(-70,70),0));
+		Quaternion invert = Quaternion.Inverse(myRotate);
+		
 		Vector3 newScale = Laser.transform.localScale;
-		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-45,45),Random.Range(-45,45),0));
 		Laser.transform.rotation = myRotate;
+		
 		while (t < 2)
 		{
 			t += Time.deltaTime;
@@ -41,7 +49,7 @@ public class LaserButton : MonoBehaviour
 			
 			//rotation
 			// need to rotate to the center of the screen
-			Laser.transform.rotation = Quaternion.RotateTowards(Laser.transform.rotation,Quaternion.identity,  20 * Time.deltaTime);
+			Laser.transform.rotation = Quaternion.RotateTowards(Laser.transform.rotation,invert,  40 * Time.deltaTime);
 			
 			yield return null;
 		}
