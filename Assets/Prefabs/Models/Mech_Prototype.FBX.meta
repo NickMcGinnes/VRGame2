@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 0b9594f611e14c142bac15804d23ae67
+timeCreated: 1519573818
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BottomConsole
+    100002: Box002
+    100004: Box003
+    100006: Box004
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: Box010
+    100016: Box011
+    100018: Box013
+    100020: Box014
+    100022: Box015
+    100024: Box016
+    100026: Box017
+    100028: Box018
+    100030: Box019
+    100032: Console Left
+    100034: Console Right
+    100036: Cylinder001
+    100038: Cylinder002
+    100040: Cylinder003
+    100042: Cylinder004
+    100044: Cylinder005
+    100046: Cylinder006
+    100048: Cylinder008
+    100050: Cylinder009
+    100052: Cylinder010
+    100054: Cylinder011
+    100056: Cylinder013
+    100058: Cylinder014
+    100060: Finer Details
+    100062: Floor
+    100064: //RootNode
+    100066: Object001
+    100068: Steel Plate
+    100070: TopConsole
+    100072: Wiring
+    400000: BottomConsole
+    400002: Box002
+    400004: Box003
+    400006: Box004
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: Box010
+    400016: Box011
+    400018: Box013
+    400020: Box014
+    400022: Box015
+    400024: Box016
+    400026: Box017
+    400028: Box018
+    400030: Box019
+    400032: Console Left
+    400034: Console Right
+    400036: Cylinder001
+    400038: Cylinder002
+    400040: Cylinder003
+    400042: Cylinder004
+    400044: Cylinder005
+    400046: Cylinder006
+    400048: Cylinder008
+    400050: Cylinder009
+    400052: Cylinder010
+    400054: Cylinder011
+    400056: Cylinder013
+    400058: Cylinder014
+    400060: Finer Details
+    400062: Floor
+    400064: //RootNode
+    400066: Object001
+    400068: Steel Plate
+    400070: TopConsole
+    400072: Wiring
+    2100000: 08 - Default
+    2300000: BottomConsole
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Box013
+    2300020: Box014
+    2300022: Box015
+    2300024: Box016
+    2300026: Box017
+    2300028: Box018
+    2300030: Box019
+    2300032: Console Left
+    2300034: Console Right
+    2300036: Cylinder001
+    2300038: Cylinder002
+    2300040: Cylinder003
+    2300042: Cylinder004
+    2300044: Cylinder005
+    2300046: Cylinder006
+    2300048: Cylinder008
+    2300050: Cylinder009
+    2300052: Cylinder010
+    2300054: Cylinder011
+    2300056: Cylinder013
+    2300058: Cylinder014
+    2300060: Finer Details
+    2300062: Floor
+    2300064: Object001
+    2300066: Steel Plate
+    2300068: TopConsole
+    2300070: Wiring
+    3300000: BottomConsole
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Box013
+    3300020: Box014
+    3300022: Box015
+    3300024: Box016
+    3300026: Box017
+    3300028: Box018
+    3300030: Box019
+    3300032: Console Left
+    3300034: Console Right
+    3300036: Cylinder001
+    3300038: Cylinder002
+    3300040: Cylinder003
+    3300042: Cylinder004
+    3300044: Cylinder005
+    3300046: Cylinder006
+    3300048: Cylinder008
+    3300050: Cylinder009
+    3300052: Cylinder010
+    3300054: Cylinder011
+    3300056: Cylinder013
+    3300058: Cylinder014
+    3300060: Finer Details
+    3300062: Floor
+    3300064: Object001
+    3300066: Steel Plate
+    3300068: TopConsole
+    3300070: Wiring
+    4300000: BottomConsole
+    4300002: Finer Details
+    4300004: TopConsole
+    4300006: Box002
+    4300008: Wiring
+    4300010: Steel Plate
+    4300012: Cylinder001
+    4300014: Cylinder002
+    4300016: Cylinder003
+    4300018: Cylinder004
+    4300020: Cylinder005
+    4300022: Cylinder006
+    4300024: Box003
+    4300026: Box004
+    4300028: Floor
+    4300030: Console Left
+    4300032: Box007
+    4300034: Box008
+    4300036: Box009
+    4300038: Box010
+    4300040: Cylinder008
+    4300042: Cylinder009
+    4300044: Box011
+    4300046: Box013
+    4300048: Box014
+    4300050: Box015
+    4300052: Box016
+    4300054: Box017
+    4300056: Cylinder010
+    4300058: Cylinder011
+    4300060: Cylinder013
+    4300062: Console Right
+    4300064: Cylinder014
+    4300066: Box018
+    4300068: Box019
+    4300070: Object001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
