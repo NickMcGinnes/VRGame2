@@ -25,7 +25,7 @@ public class SelfDestructButton : MonoBehaviour
     {
         if (!isRunning)
         {
-            countdownText.gameObject.SetActive(enabled);
+            countdownText.gameObject.SetActive(true);
             StartCoroutine(SelfDestructSequence());
         }
     }

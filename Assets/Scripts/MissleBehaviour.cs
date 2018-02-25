@@ -16,5 +16,14 @@ public class MissleBehaviour : MonoBehaviour
 	void Update () 
 	{
         transform.Translate(0, 0, speed);
+        Destroy(this.gameObject, 10);
 	}
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Building")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
