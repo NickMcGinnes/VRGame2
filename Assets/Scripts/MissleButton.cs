@@ -5,6 +5,7 @@ using UnityEngine;
 public class MissleButton : MonoBehaviour 
 {
     public GameObject missle;
+    bool isRunning;
 
 	// Use this for initialization
 	void Start () 
@@ -22,10 +23,28 @@ public class MissleButton : MonoBehaviour
     {
         bool spawned = true;
 
-        if(spawned)
+        if(spawned
+            && !isRunning)
         {
+            StartCoroutine(WaitForButton());
             Instantiate(missle);
             spawned = false;
         }
+    }
+
+    IEnumerator WaitForButton()
+    {
+        isRunning = true;
+
+        float time = 0;
+
+        while (time < 5)
+        {
+            time += Time.deltaTime;
+
+            yield return null;
+        }
+
+        isRunning = false;
     }
 }
