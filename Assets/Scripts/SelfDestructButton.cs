@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SelfDestructButton : MonoBehaviour
 {
     private bool isRunning = false;
+    public float countdownAmount;
     public GameManager gameManagerScript;
     public Text countdownText;
 
@@ -34,7 +35,7 @@ public class SelfDestructButton : MonoBehaviour
     {
         isRunning = true;
 
-        float time = 2;
+        float time = countdownAmount;
         float countdown = 0;
 
         while (time > countdown)

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LaserButton : MonoBehaviour
 {
-
 	public GameObject laser;
 	private bool _coRouIsRunning = false;
 	
@@ -15,7 +14,8 @@ public class LaserButton : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 
@@ -35,7 +35,7 @@ public class LaserButton : MonoBehaviour
 		//Ray ray;
 		//RaycastHit hit;
 		
-		float t = 0;
+		float time = 0;
 		
 		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-50,10),Random.Range(-70,70),0));
 		Quaternion invert = Quaternion.Inverse(myRotate);
@@ -43,16 +43,16 @@ public class LaserButton : MonoBehaviour
 		Vector3 newScale = laser.transform.localScale;
         laser.transform.rotation = myRotate;
 		
-		while (t < 2)
+		while (time < 2)
 		{
-			t += Time.deltaTime;
+			time += Time.deltaTime;
 			
-			// fire length
+			// Fire length
 			newScale.z += 5f * Time.deltaTime;
             laser.transform.localScale = newScale;
 
-            //rotation
-            // need to rotate to the center of the screen
+            // Rotation
+            // Need to rotate to the center of the screen
             laser.transform.rotation = Quaternion.RotateTowards(laser.transform.rotation,invert,  40 * Time.deltaTime);
             
 			yield return null;
