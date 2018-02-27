@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dca44a4-d780-4e5e-b503-7e951108cbb6" name="Default" comment="" />
+    <list default="true" id="2dca44a4-d780-4e5e-b503-7e951108cbb6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,51 +16,145 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LaserButton.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-              <folding>
-                <marker date="1519385232215" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519385232215" expanded="true" signature="120:1189" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="238:245" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="300:307" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="324:388" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="417:1187" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="759:1097" ph="{...}" />
-                <marker date="1519385232215" expanded="true" signature="897:956" ph="/* rotation ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WipersButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GvrHeadset.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1519387899124" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519387899124" expanded="true" signature="122:243" ph="{...}" />
-                <marker date="1519387899124" expanded="true" signature="172:179" ph="{...}" />
-                <marker date="1519387899124" expanded="true" signature="234:241" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+                <marker date="1519742561104" expanded="false" signature="616:718" ph="..." />
+                <marker date="1519742561104" expanded="true" signature="720:907" ph="/// Main entry point for Standalone headset APIs. ... " />
+                <marker date="1519742561104" expanded="true" signature="948:8172" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="1480:1850" ph="/// This delegate is called after the headset is recentered. ... " />
+                <marker date="1519742561104" expanded="true" signature="2138:2727" ph="DELEGATE_HANDLERS" />
+                <marker date="1519742561104" expanded="true" signature="2267:2324" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="2372:2429" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="2530:2583" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="2631:2684" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="2729:5806" ph="GVR_STANDALONE_PROPERTIES" />
+                <marker date="1519742561104" expanded="true" signature="2765:2925" ph="/// Returns |true| if the current headset supports positionally tracked, 6DOF head poses. ... " />
+                <marker date="1519742561104" expanded="true" signature="2974:3282" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="2984:3278" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3014:3045" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3056:3133" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3159:3272" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3286:3502" ph="/// If a floor is found, populates floorHeight with the detected height. ... " />
+                <marker date="1519742561104" expanded="true" signature="3565:3696" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3593:3620" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="3700:3892" ph="/// If the last recentering transform is available, populates position and rotation with that ... " />
+                <marker date="1519742561104" expanded="true" signature="3985:4133" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="4013:4040" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="4137:4323" ph="/// Populates safetyType with the available safety region feature on the ... " />
+                <marker date="1519742561104" expanded="true" signature="4404:4539" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="4432:4459" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="4543:4931" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates innerRadius with the ... " />
+                <marker date="1519742561104" expanded="true" signature="5008:5153" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5036:5063" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5157:5543" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates outerRadius with the ... " />
+                <marker date="1519742561104" expanded="true" signature="5620:5765" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5648:5675" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5831:5867" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5884:6231" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="5912:6100" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6155:6227" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6251:6390" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6290:6311" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6411:6512" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6450:6471" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6533:6618" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6572:6593" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6654:7856" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6836:7852" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6876:7790" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="6954:7234" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="7341:7394" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="7500:7554" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="7885:8170" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="7904:8166" ph="{...}" />
+                <marker date="1519742561104" expanded="true" signature="7912:8096" ph="/* This must be done at the end of the frame to ensure that all GameObjects had a chance ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScrollTexture.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs">
+      <file leaf-file-name="MouseLook.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1519381796631" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519381796631" expanded="true" signature="122:428" ph="{...}" />
-                <marker date="1519381796631" expanded="true" signature="200:207" ph="{...}" />
-                <marker date="1519381796631" expanded="true" signature="261:426" ph="{...}" />
+                <marker date="1519742561366" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519742561366" expanded="true" signature="118:484" ph="{...}" />
+                <marker date="1519742561366" expanded="true" signature="196:203" ph="{...}" />
+                <marker date="1519742561366" expanded="true" signature="257:482" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardboardLook.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <marker date="1519743835691" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519743835691" expanded="true" signature="123:248" ph="{...}" />
+                <marker date="1519743835691" expanded="true" signature="173:180" ph="{...}" />
+                <marker date="1519743835691" expanded="true" signature="235:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMagnetInput.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <marker date="1519747908204" expanded="false" signature="6:97" ph="..." />
+                <marker date="1519747908204" expanded="true" signature="144:265" ph="{...}" />
+                <marker date="1519747908204" expanded="true" signature="194:201" ph="{...}" />
+                <marker date="1519747908204" expanded="true" signature="256:263" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendClick.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <marker date="1519742561372" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519742561372" expanded="true" signature="119:572" ph="{...}" />
+                <marker date="1519742561372" expanded="true" signature="169:176" ph="{...}" />
+                <marker date="1519742561372" expanded="true" signature="229:570" ph="{...}" />
+                <marker date="1519742561372" expanded="true" signature="263:567" ph="{...}" />
+                <marker date="1519742561372" expanded="true" signature="370:563" ph="{...}" />
+                <marker date="1519742561372" expanded="true" signature="405:553" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendCardboardInput.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <marker date="1519748113088" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519748113088" expanded="true" signature="128:586" ph="{...}" />
+                <marker date="1519748113088" expanded="true" signature="178:185" ph="{...}" />
+                <marker date="1519748113088" expanded="true" signature="238:584" ph="{...}" />
+                <marker date="1519748113088" expanded="true" signature="277:581" ph="{...}" />
+                <marker date="1519748113088" expanded="true" signature="384:577" ph="{...}" />
+                <marker date="1519748113088" expanded="true" signature="419:567" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,11 +166,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/SendClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,6 +181,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/SendClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/SendMagnetInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/SendCardboardInput.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +195,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1035" />
+    <option name="width" value="1425" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -108,30 +213,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VRGame2 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="VRGame2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VRGame2 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="VRGame2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VRGame2 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VRGame2 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="VRGame2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="VRGame2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -139,7 +245,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,11 +281,13 @@
       <updated>1519316182805</updated>
       <workItem from="1519316239655" duration="6566000" />
       <workItem from="1519380147022" duration="3662000" />
+      <workItem from="1519743459700" duration="40000" />
+      <workItem from="1519743624769" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10228000" />
+    <option name="totallyTimeSpent" value="12005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,7 +299,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1035" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="1425" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -203,7 +310,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -231,45 +338,237 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1519381796631" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519381796631" expanded="true" signature="122:428" ph="{...}" />
-            <marker date="1519381796631" expanded="true" signature="200:207" ph="{...}" />
-            <marker date="1519381796631" expanded="true" signature="261:426" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519387899124" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519387899124" expanded="true" signature="122:243" ph="{...}" />
-            <marker date="1519387899124" expanded="true" signature="172:179" ph="{...}" />
-            <marker date="1519387899124" expanded="true" signature="234:241" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+            <marker date="1519742561104" expanded="false" signature="616:718" ph="..." />
+            <marker date="1519742561104" expanded="true" signature="720:907" ph="/// Main entry point for Standalone headset APIs. ... " />
+            <marker date="1519742561104" expanded="true" signature="948:8172" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="1480:1850" ph="/// This delegate is called after the headset is recentered. ... " />
+            <marker date="1519742561104" expanded="true" signature="2138:2727" ph="DELEGATE_HANDLERS" />
+            <marker date="1519742561104" expanded="true" signature="2267:2324" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2372:2429" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2530:2583" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2631:2684" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2729:5806" ph="GVR_STANDALONE_PROPERTIES" />
+            <marker date="1519742561104" expanded="true" signature="2765:2925" ph="/// Returns |true| if the current headset supports positionally tracked, 6DOF head poses. ... " />
+            <marker date="1519742561104" expanded="true" signature="2974:3282" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2984:3278" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3014:3045" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3056:3133" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3159:3272" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3286:3502" ph="/// If a floor is found, populates floorHeight with the detected height. ... " />
+            <marker date="1519742561104" expanded="true" signature="3565:3696" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3593:3620" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3700:3892" ph="/// If the last recentering transform is available, populates position and rotation with that ... " />
+            <marker date="1519742561104" expanded="true" signature="3985:4133" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4013:4040" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4137:4323" ph="/// Populates safetyType with the available safety region feature on the ... " />
+            <marker date="1519742561104" expanded="true" signature="4404:4539" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4432:4459" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4543:4931" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates innerRadius with the ... " />
+            <marker date="1519742561104" expanded="true" signature="5008:5153" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5036:5063" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5157:5543" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates outerRadius with the ... " />
+            <marker date="1519742561104" expanded="true" signature="5620:5765" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5648:5675" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5831:5867" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5884:6231" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5912:6100" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6155:6227" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6251:6390" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6290:6311" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6411:6512" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6450:6471" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6533:6618" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6572:6593" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6654:7856" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6836:7852" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6876:7790" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6954:7234" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7341:7394" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7500:7554" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7885:8170" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7904:8166" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7912:8096" ph="/* This must be done at the end of the frame to ensure that all GameObjects had a chance ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519385232215" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519385232215" expanded="true" signature="120:1189" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="238:245" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="300:307" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="324:388" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="417:1187" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="759:1097" ph="{...}" />
-            <marker date="1519385232215" expanded="true" signature="897:956" ph="/* rotation ... */" />
+            <marker date="1519742561104" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+            <marker date="1519742561104" expanded="false" signature="616:718" ph="..." />
+            <marker date="1519742561104" expanded="true" signature="720:907" ph="/// Main entry point for Standalone headset APIs. ... " />
+            <marker date="1519742561104" expanded="true" signature="948:8172" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="1480:1850" ph="/// This delegate is called after the headset is recentered. ... " />
+            <marker date="1519742561104" expanded="true" signature="2138:2727" ph="DELEGATE_HANDLERS" />
+            <marker date="1519742561104" expanded="true" signature="2267:2324" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2372:2429" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2530:2583" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2631:2684" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2729:5806" ph="GVR_STANDALONE_PROPERTIES" />
+            <marker date="1519742561104" expanded="true" signature="2765:2925" ph="/// Returns |true| if the current headset supports positionally tracked, 6DOF head poses. ... " />
+            <marker date="1519742561104" expanded="true" signature="2974:3282" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="2984:3278" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3014:3045" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3056:3133" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3159:3272" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3286:3502" ph="/// If a floor is found, populates floorHeight with the detected height. ... " />
+            <marker date="1519742561104" expanded="true" signature="3565:3696" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3593:3620" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="3700:3892" ph="/// If the last recentering transform is available, populates position and rotation with that ... " />
+            <marker date="1519742561104" expanded="true" signature="3985:4133" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4013:4040" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4137:4323" ph="/// Populates safetyType with the available safety region feature on the ... " />
+            <marker date="1519742561104" expanded="true" signature="4404:4539" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4432:4459" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="4543:4931" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates innerRadius with the ... " />
+            <marker date="1519742561104" expanded="true" signature="5008:5153" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5036:5063" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5157:5543" ph="/// If the safety region is of type GvrSafetyRegionType.Cylinder, populates outerRadius with the ... " />
+            <marker date="1519742561104" expanded="true" signature="5620:5765" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5648:5675" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5831:5867" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5884:6231" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="5912:6100" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6155:6227" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6251:6390" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6290:6311" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6411:6512" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6450:6471" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6533:6618" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6572:6593" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6654:7856" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6836:7852" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6876:7790" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="6954:7234" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7341:7394" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7500:7554" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7885:8170" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7904:8166" ph="{...}" />
+            <marker date="1519742561104" expanded="true" signature="7912:8096" ph="/* This must be done at the end of the frame to ensure that all GameObjects had a chance ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519742561366" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519742561366" expanded="true" signature="118:484" ph="{...}" />
+            <marker date="1519742561366" expanded="true" signature="196:203" ph="{...}" />
+            <marker date="1519742561366" expanded="true" signature="257:482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <marker date="1519742560951" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+            <marker date="1519742560951" expanded="false" signature="616:654" ph="..." />
+            <marker date="1519742560951" expanded="true" signature="656:1022" ph="/// Represents an object tracked by controller input. ... " />
+            <marker date="1519742560951" expanded="true" signature="1073:4777" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1096:1257" ph="[...]" />
+            <marker date="1519742560951" expanded="true" signature="1463:1612" ph="/// Arm model used to control the pose (position and rotation) of the object, and to propagate to ... " />
+            <marker date="1519742560951" expanded="true" signature="1647:1814" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1657:1687" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1696:1810" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1727:1752" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1944:2285" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="1954:2005" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2014:2281" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2066:2091" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2180:2275" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2321:2568" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2469:2564" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2585:2657" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2677:3291" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="2683:2888" ph="/* Update the position using OnPostControllerInputUpdated. ... */" />
+            <marker date="1519742560951" expanded="true" signature="2979:3106" ph="/* Force the pose to update immediately in case the controller isn't updated before the next ... */" />
+            <marker date="1519742560951" expanded="true" signature="3312:3402" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3419:3531" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3552:3624" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3672:3695" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3792:3922" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3844:3918" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3952:4140" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="3980:4001" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="4161:4552" ph="/// If the &quot;armModel&quot; serialized field is changed while the application is playing ... " />
+            <marker date="1519742560951" expanded="true" signature="4573:4750" ph="{...}" />
+            <marker date="1519742560951" expanded="true" signature="4628:4746" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <marker date="1519743835691" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519743835691" expanded="true" signature="123:248" ph="{...}" />
+            <marker date="1519743835691" expanded="true" signature="173:180" ph="{...}" />
+            <marker date="1519743835691" expanded="true" signature="235:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <marker date="1519748113088" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519748113088" expanded="true" signature="128:586" ph="{...}" />
+            <marker date="1519748113088" expanded="true" signature="178:185" ph="{...}" />
+            <marker date="1519748113088" expanded="true" signature="238:584" ph="{...}" />
+            <marker date="1519748113088" expanded="true" signature="277:581" ph="{...}" />
+            <marker date="1519748113088" expanded="true" signature="384:577" ph="{...}" />
+            <marker date="1519748113088" expanded="true" signature="419:567" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1519742561372" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519742561372" expanded="true" signature="119:572" ph="{...}" />
+            <marker date="1519742561372" expanded="true" signature="169:176" ph="{...}" />
+            <marker date="1519742561372" expanded="true" signature="229:570" ph="{...}" />
+            <marker date="1519742561372" expanded="true" signature="263:567" ph="{...}" />
+            <marker date="1519742561372" expanded="true" signature="370:563" ph="{...}" />
+            <marker date="1519742561372" expanded="true" signature="405:553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <marker date="1519747908204" expanded="false" signature="6:97" ph="..." />
+            <marker date="1519747908204" expanded="true" signature="144:265" ph="{...}" />
+            <marker date="1519747908204" expanded="true" signature="194:201" ph="{...}" />
+            <marker date="1519747908204" expanded="true" signature="256:263" ph="{...}" />
           </folding>
         </state>
       </provider>
