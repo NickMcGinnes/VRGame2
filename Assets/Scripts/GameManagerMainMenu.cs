@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManagerMainMenu : MonoBehaviour
 {
@@ -18,4 +19,9 @@ public class GameManagerMainMenu : MonoBehaviour
 	{
 		
 	}
+
+    public void PlayButton ()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
 }

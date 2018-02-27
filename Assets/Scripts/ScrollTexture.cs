@@ -5,8 +5,10 @@ using UnityEngine;
 public class ScrollTexture : MonoBehaviour
 {
 	private float _offset = 0;
+
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		
 	}
 	

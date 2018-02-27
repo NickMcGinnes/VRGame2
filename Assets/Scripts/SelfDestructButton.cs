@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class SelfDestructButton : MonoBehaviour
 {
     private bool isRunning = false;
-    public GameObject gameOverPanel;
+    public float countdownAmount;
+    public GameManager gameManagerScript;
     public Text countdownText;
 
     // Use this for initialization
     void Start()
     {
-
+        gameManagerScript = gameManagerScript.gameObject.GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -34,22 +35,17 @@ public class SelfDestructButton : MonoBehaviour
     {
         isRunning = true;
 
-        float time = 10;
+        float time = countdownAmount;
         float countdown = 0;
 
         while (time > countdown)
         {
             time -= Time.deltaTime;
-            countdownText.text = "" + Mathf.RoundToInt(time); ;
+            countdownText.text = "" + Mathf.RoundToInt(time);
 
             yield return null;
         }
 
-        GameOver();
-    }
-
-    void GameOver()
-    {
-        gameOverPanel.gameObject.SetActive(enabled);
+        gameManagerScript.gameOver = true;
     }
 }
