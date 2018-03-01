@@ -243,9 +243,13 @@
           <e p="MissleBehaviour.cs" t="Include" />
           <e p="MissleButton.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
+          <e p="MoveForwardButton.cs" t="Include" />
+          <e p="Reticle.cs" t="Include" />
           <e p="ScrollTexture.cs" t="Include" />
           <e p="SelfDestructButton.cs" t="Include" />
           <e p="SendClick.cs" t="Include" />
+          <e p="VREyeRaycaster.cs" t="Include" />
+          <e p="VRInteractiveItem.cs" t="Include" />
           <e p="WipersButton.cs" t="Include" />
         </e>
         <e p="SendCardboardInput.cs" t="Include" />
