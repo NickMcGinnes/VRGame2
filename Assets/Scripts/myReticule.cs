@@ -6,11 +6,16 @@ public class myReticule : MonoBehaviour
 {
 	public GameObject Cube;
 
-	private Vector3 origin;
+	private Vector3 _origin;
+
+	private Vector3 _orignalScale;
+
+	private float _defaultDistance = 1;
 	// Use this for initialization
 	void Start ()
 	{
-		origin = Cube.transform.localPosition;
+		_origin = Cube.transform.localPosition;
+		_orignalScale = Cube.transform.localScale;
 	}
 	
 	// Update is called once per frame
@@ -22,11 +27,13 @@ public class myReticule : MonoBehaviour
 			if (hit.collider != null)
 			{
 				Cube.transform.position = hit.point;
+				Cube.transform.localScale = _orignalScale * (hit.distance);
 			}
 		}
 		else
 		{
-			Cube.transform.localPosition = origin;
+			Cube.transform.localPosition = _origin;
+			Cube.transform.localScale = _orignalScale * _defaultDistance;
 		}
 	}
 }

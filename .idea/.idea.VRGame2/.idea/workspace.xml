@@ -4,8 +4,16 @@
     <list default="true" id="2dca44a4-d780-4e5e-b503-7e951108cbb6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI.mat" afterPath="$PROJECT_DIR$/Assets/Materials/UI.mat" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mech_Prototype.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mech_Prototype.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerVR.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerVR.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/SendCardboardInput.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/SendCardboardInput.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/SendMagnetInput.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/SendMagnetInput.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/myReticule.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/myReticule.cs.meta" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,52 +24,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Reticle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Reticle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <marker date="1519999913585" expanded="false" signature="6:40" ph="..." />
+                <marker date="1519999913585" expanded="true" signature="74:3384" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="81:348" ph="/* The reticle is a small point at the centre of the screen. ... */" />
+                <marker date="1519999913585" expanded="true" signature="389:3382" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="1340:1441" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="1555:1757" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="1786:1843" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="1872:1928" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="2062:2568" ph="{...}" />
+                <marker date="1519999913585" expanded="true" signature="2710:3376" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="myReticule.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/myReticule.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/myReticule.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="405">
+              <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
               <folding>
-                <marker date="1519931319350" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519931319350" expanded="true" signature="119:569" ph="{...}" />
-                <marker date="1519931319350" expanded="true" signature="219:266" ph="{...}" />
-                <marker date="1519931319350" expanded="true" signature="321:567" ph="{...}" />
-                <marker date="1519931319350" expanded="true" signature="419:507" ph="{...}" />
-                <marker date="1519931319350" expanded="true" signature="452:503" ph="{...}" />
-                <marker date="1519931319350" expanded="true" signature="514:564" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MouseLook.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
-                <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
-                <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendClick.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519757779760" expanded="true" signature="118:571" ph="{...}" />
-                <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
-                <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
-                <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
-                <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
-                <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
+                <marker date="1520000893912" expanded="false" signature="6:78" ph="..." />
+                <marker date="1520000893912" expanded="true" signature="119:817" ph="{...}" />
+                <marker date="1520000893912" expanded="true" signature="291:384" ph="{...}" />
+                <marker date="1520000893912" expanded="true" signature="439:815" ph="{...}" />
+                <marker date="1520000893912" expanded="true" signature="537:689" ph="{...}" />
+                <marker date="1520000893912" expanded="true" signature="570:685" ph="{...}" />
+                <marker date="1520000893912" expanded="true" signature="696:812" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,14 +72,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VREyeRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reticle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRInteractiveItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/myReticule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/myReticule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,6 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/SendMagnetInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VREyeRaycaster.cs" />
         <option value="$PROJECT_DIR$/Assets/myReticule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/myReticule.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,11 +195,12 @@
       <workItem from="1519758614114" duration="783000" />
       <workItem from="1519908564390" duration="9000" />
       <workItem from="1519926522109" duration="3888000" />
+      <workItem from="1520000048938" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16685000" />
+    <option name="totallyTimeSpent" value="17532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,365 +251,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1519757549598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549598" expanded="true" signature="123:248" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="173:180" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="235:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/myReticule.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779760" expanded="true" signature="118:571" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1519757549616" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549616" expanded="true" signature="128:586" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="178:185" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="238:584" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="277:581" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="384:577" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="419:567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519758801688" expanded="true" signature="65:186" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="115:122" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="177:184" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1519757549598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549598" expanded="true" signature="123:248" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="173:180" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="235:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779760" expanded="true" signature="118:571" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1519757549616" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549616" expanded="true" signature="128:586" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="178:185" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="238:584" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="277:581" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="384:577" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="419:567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519758801688" expanded="true" signature="65:186" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="115:122" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="177:184" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
-            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1519757549598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549598" expanded="true" signature="123:248" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="173:180" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="235:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779760" expanded="true" signature="118:571" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
-            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1519757549616" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549616" expanded="true" signature="128:586" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="178:185" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="238:584" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="277:581" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="384:577" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="419:567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1519758801688" expanded="true" signature="65:186" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="115:122" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="177:184" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1519757549598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549598" expanded="true" signature="123:248" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="173:180" ph="{...}" />
-            <marker date="1519757549598" expanded="true" signature="235:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519758801688" expanded="true" signature="65:186" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="115:122" ph="{...}" />
-            <marker date="1519758801688" expanded="true" signature="177:184" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1519757549616" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757549616" expanded="true" signature="128:586" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="178:185" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="238:584" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="277:581" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="384:577" ph="{...}" />
-            <marker date="1519757549616" expanded="true" signature="419:567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Reticle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514996687000" expanded="false" signature="6:40" ph="..." />
-            <marker date="1514996687000" expanded="true" signature="74:3384" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="81:348" ph="/* The reticle is a small point at the centre of the screen. ... */" />
-            <marker date="1514996687000" expanded="true" signature="389:3382" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="1340:1441" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="1555:1757" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="1786:1843" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="1872:1928" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="2062:2568" ph="{...}" />
-            <marker date="1514996687000" expanded="true" signature="2710:3376" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInteractiveItem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514996607000" expanded="false" signature="6:32" ph="..." />
-            <marker date="1514996607000" expanded="true" signature="66:2145" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="73:323" ph="/* This class should be added to any gameobject in the scene ... */" />
-            <marker date="1514996607000" expanded="true" signature="374:2143" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1120:1233" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1244:1421" ph="/* The below functions are called by the VREyeRaycaster when the appropriate input is detected. ... */" />
-            <marker date="1514996607000" expanded="true" signature="1448:1556" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1584:1691" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1721:1801" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1837:1929" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="1956:2030" ph="{...}" />
-            <marker date="1514996607000" expanded="true" signature="2059:2137" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VREyeRaycaster.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-          <folding>
-            <marker date="1519926723826" expanded="false" signature="6:32" ph="..." />
-            <marker date="1519926723826" expanded="true" signature="66:5071" ph="{...}" />
-            <marker date="1519926723826" expanded="true" signature="73:314" ph="/* In order to interact with objects in the scene ... */" />
-            <marker date="1519926723826" expanded="true" signature="362:5069" ph="{...}" />
-            <marker date="1519926723826" expanded="true" signature="377:5063" ph="/* public event Action&lt;RaycastHit&gt; OnRaycasthit;                   // This event is called every frame that the u ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +278,274 @@
           <caret line="26" column="13" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
           <folding>
             <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519757779760" expanded="true" signature="118:571" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Reticle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519999913585" expanded="false" signature="6:40" ph="..." />
+            <marker date="1519999913585" expanded="true" signature="74:3384" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="81:348" ph="/* The reticle is a small point at the centre of the screen. ... */" />
+            <marker date="1519999913585" expanded="true" signature="389:3382" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1340:1441" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1555:1757" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1786:1843" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1872:1928" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="2062:2568" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="2710:3376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="374:562" ph="{...}" />
+            <marker date="1519757779760" expanded="true" signature="409:557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardboardLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendMagnetInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SendCardboardInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInteractiveItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VREyeRaycaster.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1519757779760" expanded="false" signature="6:78" ph="..." />
             <marker date="1519757779760" expanded="true" signature="167:179" ph="{...}" />
             <marker date="1519757779760" expanded="true" signature="233:569" ph="{...}" />
             <marker date="1519757779760" expanded="true" signature="267:566" ph="{...}" />
@@ -650,14 +559,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519931319350" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519931319350" expanded="true" signature="119:569" ph="{...}" />
-            <marker date="1519931319350" expanded="true" signature="219:266" ph="{...}" />
-            <marker date="1519931319350" expanded="true" signature="321:567" ph="{...}" />
-            <marker date="1519931319350" expanded="true" signature="419:507" ph="{...}" />
-            <marker date="1519931319350" expanded="true" signature="452:503" ph="{...}" />
-            <marker date="1519931319350" expanded="true" signature="514:564" ph="{...}" />
+            <marker date="1519757779745" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519757779745" expanded="true" signature="118:488" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="199:211" ph="{...}" />
+            <marker date="1519757779745" expanded="true" signature="265:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Reticle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1519999913585" expanded="false" signature="6:40" ph="..." />
+            <marker date="1519999913585" expanded="true" signature="74:3384" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="81:348" ph="/* The reticle is a small point at the centre of the screen. ... */" />
+            <marker date="1519999913585" expanded="true" signature="389:3382" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1340:1441" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1555:1757" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1786:1843" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="1872:1928" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="2062:2568" ph="{...}" />
+            <marker date="1519999913585" expanded="true" signature="2710:3376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/myReticule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding>
+            <marker date="1520000893912" expanded="false" signature="6:78" ph="..." />
+            <marker date="1520000893912" expanded="true" signature="119:817" ph="{...}" />
+            <marker date="1520000893912" expanded="true" signature="291:384" ph="{...}" />
+            <marker date="1520000893912" expanded="true" signature="439:815" ph="{...}" />
+            <marker date="1520000893912" expanded="true" signature="537:689" ph="{...}" />
+            <marker date="1520000893912" expanded="true" signature="570:685" ph="{...}" />
+            <marker date="1520000893912" expanded="true" signature="696:812" ph="{...}" />
           </folding>
         </state>
       </provider>
