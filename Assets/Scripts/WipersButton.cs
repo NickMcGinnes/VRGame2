@@ -8,11 +8,14 @@ public class WipersButton : MonoBehaviour
     public Animator wiperAnimator;
     [HideInInspector]
     public AudioSource myAudio;
-    bool isRunning;
+    public AudioSource buttonAudioSource;
+    bool isRunning = false;
+    public AudioClip[] buttonSounds;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
+        buttonAudioSource = gameObject.GetComponent<AudioSource>();
         wiperAnimator = gameObject.GetComponentInChildren<Animator>();
         myAudio = gameObject.GetComponentInChildren<AudioSource>();
 	}
@@ -30,5 +33,8 @@ public class WipersButton : MonoBehaviour
             wiperAnimator.enabled = true;
             myAudio.enabled = true;
         }
+
+        buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
+        buttonAudioSource.Play();
     }
 }

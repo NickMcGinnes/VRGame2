@@ -8,10 +8,13 @@ public class LaserButton : MonoBehaviour
 	private bool _coRouIsRunning = false;
     public AudioSource myAudio;
     public AudioClip laserAudio;
+    public AudioClip[] buttonSounds;
+    public AudioSource buttonAudioSource;
 
     // Use this for initialization
     void Start ()
     {
+        buttonAudioSource = gameObject.GetComponent<AudioSource>();
         laser.SetActive(false);
         myAudio = gameObject.GetComponent<AudioSource>();
     }
@@ -31,7 +34,10 @@ public class LaserButton : MonoBehaviour
             myAudio.Play();
             StartCoroutine(LaserControl());
         }
-	}
+
+        buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
+        buttonAudioSource.Play();
+    }
 
 	IEnumerator LaserControl()
 	{
