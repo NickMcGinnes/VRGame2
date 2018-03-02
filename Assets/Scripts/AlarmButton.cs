@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissleButton : MonoBehaviour 
+public class AlarmButton : MonoBehaviour 
 {
-    public GameObject missle;
-    bool isRunning;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    bool isRunning = false;
+    public GameObject alarm;
 
     // Use this for initialization
     void Start () 
 	{
         buttonAudioSource = gameObject.GetComponent<AudioSource>();
+
     }
 	
 	// Update is called once per frame
@@ -23,33 +24,12 @@ public class MissleButton : MonoBehaviour
 
     void Clicked()
     {
-        bool spawned = true;
-
-        if(spawned
-            && !isRunning)
+        if (!isRunning)
         {
-            StartCoroutine(WaitForButton());
-            Instantiate(missle);
-            spawned = false;
+            alarm.SetActive(true);
         }
 
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
-    }
-
-    IEnumerator WaitForButton()
-    {
-        isRunning = true;
-
-        float time = 0;
-
-        while (time < 5)
-        {
-            time += Time.deltaTime;
-
-            yield return null;
-        }
-
-        isRunning = false;
     }
 }

@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissleButton : MonoBehaviour 
+public class RandomButton : MonoBehaviour 
 {
-    public GameObject missle;
-    bool isRunning;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    bool isRunning = false;
 
     // Use this for initialization
     void Start () 
@@ -23,33 +22,12 @@ public class MissleButton : MonoBehaviour
 
     void Clicked()
     {
-        bool spawned = true;
-
-        if(spawned
-            && !isRunning)
+        if (!isRunning)
         {
-            StartCoroutine(WaitForButton());
-            Instantiate(missle);
-            spawned = false;
+            
         }
 
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
-    }
-
-    IEnumerator WaitForButton()
-    {
-        isRunning = true;
-
-        float time = 0;
-
-        while (time < 5)
-        {
-            time += Time.deltaTime;
-
-            yield return null;
-        }
-
-        isRunning = false;
     }
 }
