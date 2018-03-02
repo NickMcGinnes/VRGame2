@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ConfettiButton : MonoBehaviour 
 {
-    public GameObject confettiParticleSystem;
+    public ParticleSystem confettiParticleSystem;
     bool confettiOn = false;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
@@ -27,10 +27,12 @@ public class ConfettiButton : MonoBehaviour
         if (!isRunning
             && !confettiOn)
         {
-            confettiParticleSystem.SetActive(true);
+            confettiParticleSystem.Play();
+            confettiOn = true;
         } else if (confettiOn)
         {
-            confettiParticleSystem.SetActive(false);
+            confettiParticleSystem.Stop();
+            confettiOn = false;
         }
 
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
