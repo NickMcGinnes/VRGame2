@@ -6,12 +6,15 @@ public class LaserButton : MonoBehaviour
 {
 	public GameObject laser;
 	private bool _coRouIsRunning = false;
-	
-	// Use this for initialization
-	void Start ()
+    public AudioSource myAudio;
+    public AudioClip laserAudio;
+
+    // Use this for initialization
+    void Start ()
     {
         laser.SetActive(false);
-	}
+        myAudio = gameObject.GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -24,6 +27,8 @@ public class LaserButton : MonoBehaviour
         laser.SetActive(true);
         if (!_coRouIsRunning)
         {
+            myAudio.clip = laserAudio;
+            myAudio.Play();
             StartCoroutine(LaserControl());
         }
 	}
@@ -60,7 +65,7 @@ public class LaserButton : MonoBehaviour
 
 		newScale.z = 0;
         laser.transform.localScale = newScale;
-        laser.SetActive(false);
+        //laser.SetActive(false);
         _coRouIsRunning = false;
 	}
 }
