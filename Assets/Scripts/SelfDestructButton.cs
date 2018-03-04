@@ -11,6 +11,7 @@ public class SelfDestructButton : MonoBehaviour
     public Text countdownText;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    public AudioSource selfDestructAudioSource;
 
     // Use this for initialization
     void Start()
@@ -33,6 +34,7 @@ public class SelfDestructButton : MonoBehaviour
             StartCoroutine(SelfDestructSequence());
         }
 
+        selfDestructAudioSource.enabled = true;
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
     }

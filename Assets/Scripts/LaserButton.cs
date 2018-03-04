@@ -10,6 +10,7 @@ public class LaserButton : MonoBehaviour
     public AudioClip laserAudio;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    public AudioSource laserAudioSource;
 
     // Use this for initialization
     void Start ()
@@ -42,11 +43,11 @@ public class LaserButton : MonoBehaviour
 	IEnumerator LaserControl()
 	{
 		_coRouIsRunning = true;
+        laserAudioSource.enabled = true;
+        //Ray ray;
+        //RaycastHit hit;
 
-		//Ray ray;
-		//RaycastHit hit;
-		
-		float time = 0;
+        float time = 0;
 		
 		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-50,10),Random.Range(-70,70),0));
 		Quaternion invert = Quaternion.Inverse(myRotate);
@@ -69,6 +70,7 @@ public class LaserButton : MonoBehaviour
 			yield return null;
 		}
 
+        laserAudioSource.enabled = false;
 		newScale.z = 0;
         laser.transform.localScale = newScale;
         //laser.SetActive(false);
