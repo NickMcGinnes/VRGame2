@@ -6,7 +6,6 @@ public class WipersButton : MonoBehaviour
 {
     [HideInInspector]
     public Animator wiperAnimator;
-    [HideInInspector]
     public AudioSource myAudio;
     public AudioSource buttonAudioSource;
     bool isRunning = false;
@@ -15,9 +14,8 @@ public class WipersButton : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        buttonAudioSource = gameObject.GetComponent<AudioSource>();
         wiperAnimator = gameObject.GetComponentInChildren<Animator>();
-        myAudio = gameObject.GetComponentInChildren<AudioSource>();
+        //myAudio = gameObject.GetComponentInChildren<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -31,9 +29,10 @@ public class WipersButton : MonoBehaviour
         if (!isRunning)
         {
             wiperAnimator.enabled = true;
-            myAudio.enabled = true;
+            isRunning = true;
         }
 
+        myAudio.enabled = true;
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
     }

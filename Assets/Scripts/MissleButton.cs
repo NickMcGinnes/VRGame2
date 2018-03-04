@@ -8,6 +8,7 @@ public class MissleButton : MonoBehaviour
     bool isRunning;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    public AudioSource rocketLaunchAudioSource;
 
     // Use this for initialization
     void Start () 
@@ -33,6 +34,7 @@ public class MissleButton : MonoBehaviour
             spawned = false;
         }
 
+        rocketLaunchAudioSource.enabled = true;
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
     }
@@ -50,6 +52,7 @@ public class MissleButton : MonoBehaviour
             yield return null;
         }
 
+        rocketLaunchAudioSource.enabled = false;
         isRunning = false;
     }
 }
