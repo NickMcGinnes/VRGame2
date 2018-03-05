@@ -30,7 +30,7 @@ public class SelfDestructButton : MonoBehaviour
     {
         if (!isRunning)
         {
-            countdownText.gameObject.SetActive(true);
+            //countdownText.gameObject.SetActive(true);
             StartCoroutine(SelfDestructSequence());
         }
 
@@ -49,7 +49,7 @@ public class SelfDestructButton : MonoBehaviour
         while (time > countdown)
         {
             time -= Time.deltaTime;
-            countdownText.text = "" + Mathf.RoundToInt(time);
+            //countdownText.text = "" + Mathf.RoundToInt(time);
 
             yield return null;
         }

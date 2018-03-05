@@ -11,7 +11,7 @@ public class LaserButton : MonoBehaviour
 	
 	
     public AudioSource myAudio;
-    public AudioClip laserAudio;
+    public AudioClip[] laserSounds;
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
     public AudioSource laserAudioSource;
@@ -21,7 +21,7 @@ public class LaserButton : MonoBehaviour
     {
         buttonAudioSource = gameObject.GetComponent<AudioSource>();
         laser.SetActive(false);
-        myAudio = gameObject.GetComponent<AudioSource>();
+        //laserAudioSource = gameObject.GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -33,12 +33,16 @@ public class LaserButton : MonoBehaviour
 	void Clicked()
 	{
         laser.SetActive(true);
+
         if (!_coRouIsRunning)
         {
-            myAudio.clip = laserAudio;
-            myAudio.Play();
+            //myAudio.clip = laserSounds[Random.Range(0, laserSounds.Length)];
+            //myAudio.Play();
             StartCoroutine(LaserControl());
         }
+
+        laserAudioSource.clip = laserSounds[Random.Range(0, laserSounds.Length)];
+        laserAudioSource.Play();
 
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
