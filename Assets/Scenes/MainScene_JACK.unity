@@ -1915,6 +1915,115 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &606434604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 606434605}
+  - component: {fileID: 606434606}
+  m_Layer: 0
+  m_Name: AlarmAudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &606434605
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606434604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2077391988}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &606434606
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606434604}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: afe9f1df819e68243b0c1d7e9bad52e1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &679708929
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,10 +3848,10 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177698437}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 93a97a5e96359e54da7a50fa17ad0659, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3822,6 +3931,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
         type: 2}
+      propertyPath: laserSounds.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
       propertyPath: buttonSounds.Array.size
       value: 14
       objectReference: {fileID: 0}
@@ -3898,7 +4012,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4989155998809794, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 95697885043198522, guid: 93d83caded19b52458208ea2336c28b7,
         type: 2}
@@ -3917,11 +4031,11 @@ Prefab:
       objectReference: {fileID: 1177698439}
     - target: {fileID: 4679352333728802, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4921382348132476, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4948311222746656, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
       propertyPath: m_RootOrder
@@ -4189,6 +4303,51 @@ Prefab:
       propertyPath: laserAudioSource
       value: 
       objectReference: {fileID: 1177698439}
+    - target: {fileID: 114828755661975542, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: buttonAudioSource
+      value: 
+      objectReference: {fileID: 369057257}
+    - target: {fileID: 114828755661975542, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: selfDestructAudioSource
+      value: 
+      objectReference: {fileID: 1991051294}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 93a97a5e96359e54da7a50fa17ad0659, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 13032ef1018654e4b8d6f08537082f7a, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 11c1899df3d151245a11dfc55a1e51f5, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 72a26b7aaec5476419c712981486ce22, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 14db8b69904a13c4bb423f6522a0c6f0, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 998f7b2ac87053c46a45dedc627421c8, type: 3}
+    - target: {fileID: 114855054180843596, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: laserSounds.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: be4cecc59d39fff46a2424b24ea4dbca, type: 3}
     m_RemovedComponents:
     - {fileID: 95697885043198522, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
@@ -6769,7 +6928,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: af2f694f02f083043a41439fdddfc354,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 5ff144e6ba9ece544b568f6e02242636, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4cf69f2eabce8e949a4dcd3e34555ed8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7342,7 +7501,8 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 1.005, y: -5.1240005, z: 13.161005}
   m_LocalScale: {x: 0.4793601, y: 0.4793601, z: 0.4793601}
-  m_Children: []
+  m_Children:
+  - {fileID: 606434605}
   m_Father: {fileID: 918985698}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7452,7 +7612,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 49fdc770083ce874586b2f7f14d0aca4, type: 3}
   - {fileID: 8300000, guid: c26e53958531bc94aa02696c8531fbab, type: 3}
   - {fileID: 8300000, guid: 394951b5a1cda8e4184b282e72774681, type: 3}
-  buttonAudioSource: {fileID: 0}
+  buttonAudioSource: {fileID: 2077391989}
+  alarmAudioSource: {fileID: 606434606}
   alarm: {fileID: 1003288471}
 --- !u!23 &2077391991
 MeshRenderer:

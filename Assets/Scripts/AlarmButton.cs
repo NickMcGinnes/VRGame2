@@ -6,6 +6,7 @@ public class AlarmButton : MonoBehaviour
 {
     public AudioClip[] buttonSounds;
     public AudioSource buttonAudioSource;
+    public AudioSource alarmAudioSource;
     bool isRunning = false;
     public GameObject alarm;
 
@@ -13,7 +14,6 @@ public class AlarmButton : MonoBehaviour
     void Start () 
 	{
         buttonAudioSource = gameObject.GetComponent<AudioSource>();
-
     }
 	
 	// Update is called once per frame
@@ -29,6 +29,7 @@ public class AlarmButton : MonoBehaviour
             alarm.SetActive(true);
         }
 
+        alarmAudioSource.enabled = true;
         buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
         buttonAudioSource.Play();
     }
