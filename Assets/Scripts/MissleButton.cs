@@ -6,12 +6,15 @@ public class MissleButton : MonoBehaviour
 {
     public GameObject missle;
     bool isRunning;
+    public AudioClip[] buttonSounds;
+    public AudioSource buttonAudioSource;
+    public AudioSource rocketLaunchAudioSource;
 
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start () 
 	{
-		
-	}
+        buttonAudioSource = gameObject.GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () 
@@ -30,6 +33,10 @@ public class MissleButton : MonoBehaviour
             Instantiate(missle);
             spawned = false;
         }
+
+        rocketLaunchAudioSource.enabled = true;
+        buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
+        buttonAudioSource.Play();
     }
 
     IEnumerator WaitForButton()
@@ -45,6 +52,7 @@ public class MissleButton : MonoBehaviour
             yield return null;
         }
 
+        rocketLaunchAudioSource.enabled = false;
         isRunning = false;
     }
 }

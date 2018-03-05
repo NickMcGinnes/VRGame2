@@ -6,12 +6,19 @@ public class LaserButton : MonoBehaviour
 {
 	public GameObject laser;
 	private bool _coRouIsRunning = false;
-	
-	// Use this for initialization
-	void Start ()
+    public AudioSource myAudio;
+    public AudioClip laserAudio;
+    public AudioClip[] buttonSounds;
+    public AudioSource buttonAudioSource;
+    public AudioSource laserAudioSource;
+
+    // Use this for initialization
+    void Start ()
     {
+        buttonAudioSource = gameObject.GetComponent<AudioSource>();
         laser.SetActive(false);
-	}
+        myAudio = gameObject.GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -24,18 +31,23 @@ public class LaserButton : MonoBehaviour
         laser.SetActive(true);
         if (!_coRouIsRunning)
         {
+            myAudio.clip = laserAudio;
+            myAudio.Play();
             StartCoroutine(LaserControl());
         }
-	}
+
+        buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
+        buttonAudioSource.Play();
+    }
 
 	IEnumerator LaserControl()
 	{
 		_coRouIsRunning = true;
+        laserAudioSource.enabled = true;
+        //Ray ray;
+        //RaycastHit hit;
 
-		//Ray ray;
-		//RaycastHit hit;
-		
-		float time = 0;
+        float time = 0;
 		
 		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-50,10),Random.Range(-70,70),0));
 		Quaternion invert = Quaternion.Inverse(myRotate);
@@ -58,9 +70,10 @@ public class LaserButton : MonoBehaviour
 			yield return null;
 		}
 
+        laserAudioSource.enabled = false;
 		newScale.z = 0;
         laser.transform.localScale = newScale;
-        laser.SetActive(false);
+        //laser.SetActive(false);
         _coRouIsRunning = false;
 	}
 }

@@ -9,10 +9,14 @@ public class SelfDestructButton : MonoBehaviour
     public float countdownAmount;
     public GameManager gameManagerScript;
     public Text countdownText;
+    public AudioClip[] buttonSounds;
+    public AudioSource buttonAudioSource;
+    public AudioSource selfDestructAudioSource;
 
     // Use this for initialization
     void Start()
     {
+        buttonAudioSource = gameObject.GetComponent<AudioSource>();
         gameManagerScript = gameManagerScript.gameObject.GetComponent<GameManager>();
     }
 
@@ -29,6 +33,10 @@ public class SelfDestructButton : MonoBehaviour
             countdownText.gameObject.SetActive(true);
             StartCoroutine(SelfDestructSequence());
         }
+
+        selfDestructAudioSource.enabled = true;
+        buttonAudioSource.clip = buttonSounds[Random.Range(0, buttonSounds.Length)];
+        buttonAudioSource.Play();
     }
 
     IEnumerator SelfDestructSequence()

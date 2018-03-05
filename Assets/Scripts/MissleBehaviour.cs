@@ -5,7 +5,8 @@ using UnityEngine;
 public class MissleBehaviour : MonoBehaviour 
 {
     float speed;
-
+    public ParticleSystem particle;
+    
 	// Use this for initialization
 	void Start () 
 	{
@@ -23,6 +24,7 @@ public class MissleBehaviour : MonoBehaviour
     {
         if(collision.gameObject.tag == "Building")
         {
+            Instantiate(particle, transform.position, transform.rotation);
             Destroy(this.gameObject);
         }
     }

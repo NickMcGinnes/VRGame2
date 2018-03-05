@@ -770,7 +770,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1000013061525784, guid: ce7abbbeb276a1547bd8ce1069fdabb7, type: 2}
+    - target: {fileID: 114562401172887944, guid: 93d83caded19b52458208ea2336c28b7,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005973012008998, guid: 93d83caded19b52458208ea2336c28b7, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
