@@ -5,7 +5,11 @@ using UnityEngine;
 public class LaserButton : MonoBehaviour
 {
 	public GameObject laser;
+	public GameObject DestructionEffectFab;
+	public GameObject myCube;
 	private bool _coRouIsRunning = false;
+	
+	
     public AudioSource myAudio;
     public AudioClip laserAudio;
     public AudioClip[] buttonSounds;
@@ -47,26 +51,46 @@ public class LaserButton : MonoBehaviour
         //Ray ray;
         //RaycastHit hit;
 
-        float time = 0;
+		Ray ray;
+		RaycastHit hit;
 		
 		Quaternion myRotate = Quaternion.Euler(new Vector3(Random.Range(-50,10),Random.Range(-70,70),0));
 		Quaternion invert = Quaternion.Inverse(myRotate);
 		
 		Vector3 newScale = laser.transform.localScale;
         laser.transform.rotation = myRotate;
+
+		GameObject myFab = Instantiate(DestructionEffectFab);
 		
 		while (time < 2)
 		{
 			time += Time.deltaTime;
 			
 			// Fire length
-			newScale.z += 5f * Time.deltaTime;
+			newScale.z += 3f * Time.deltaTime;
             laser.transform.localScale = newScale;
 
             // Rotation
             // Need to rotate to the center of the screen
             laser.transform.rotation = Quaternion.RotateTowards(laser.transform.rotation,invert,  40 * Time.deltaTime);
-            
+			Vector3 myRot = laser.transform.rotation.eulerAngles;
+			
+			//ray = new Ray(Physics.Raycast(laser.transform.position,myRot, out hit,newScale.z * 1000))
+			//print(myRot);
+			if (Physics.Raycast(laser.transform.position,myRot, out hit,newScale.z * 1000))
+			{
+				//print("i hit " + hit.collider);
+				//destruction effect position = hit.point	
+				print(hit.point);
+				myCube.transform.position = hit.point;
+				Debug.DrawLine(laser.transform.position,hit.point, Color.cyan);
+				//myFab.transform.position = hit.point;
+			}
+			else
+			{
+				//print("i'm not hitting anything");
+			}
+
 			yield return null;
 		}
 
@@ -74,6 +98,7 @@ public class LaserButton : MonoBehaviour
 		newScale.z = 0;
         laser.transform.localScale = newScale;
         //laser.SetActive(false);
+		Destroy(myFab);
         _coRouIsRunning = false;
 	}
 }
