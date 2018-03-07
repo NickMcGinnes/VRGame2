@@ -44,11 +44,13 @@ public class SelfDestructButton : MonoBehaviour
         isRunning = true;
 
         float time = countdownAmount;
+        time -= 0.3f;
         float countdown = 0;
 
         while (time > countdown)
         {
             time -= Time.deltaTime;
+            //if (time < 10.55f) 
             //countdownText.text = "" + Mathf.RoundToInt(time);
 
             yield return null;

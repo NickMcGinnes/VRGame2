@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dca44a4-d780-4e5e-b503-7e951108cbb6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VRGame2/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AlarmEjection.anim" afterPath="$PROJECT_DIR$/Assets/Animations/AlarmEjection.anim" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene_JACK.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene_JACK.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mech_Prototype.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mech_Prototype.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,18 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmButton.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlarmButton.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AlarmButton.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelfDestructButton.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
-                <marker date="1520280335423" expanded="false" signature="6:78" ph="..." />
-                <marker date="1520280335423" expanded="true" signature="121:770" ph="{...}" />
-                <marker date="1520280335423" expanded="true" signature="355:432" ph="{...}" />
-                <marker date="1520280335423" expanded="true" signature="487:496" ph="{...}" />
-                <marker date="1520280335423" expanded="true" signature="516:768" ph="{...}" />
-                <marker date="1520280335423" expanded="true" signature="546:601" ph="{...}" />
+                <marker date="1520392784949" expanded="false" signature="6:100" ph="..." />
+                <marker date="1520392784949" expanded="true" signature="149:1497" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="474:640" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="698:711" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="731:1063" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="761:889" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="1103:1495" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="1259:1445" ph="{...}" />
+                <marker date="1520392784949" expanded="true" signature="1318:1403" ph="/* if (time &lt; 10.55f) ... */" />
               </folding>
             </state>
           </provider>
@@ -53,6 +65,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlarmSpin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlarmButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -63,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/SendClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +88,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1035" />
+    <option name="width" value="1355" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -92,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -106,6 +119,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,11 +158,12 @@
       <workItem from="1519380147022" duration="3662000" />
       <workItem from="1520348013754" duration="15000" />
       <workItem from="1520348963142" duration="11000" />
+      <workItem from="1520392373669" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10254000" />
+    <option name="totallyTimeSpent" value="10942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -160,7 +175,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1035" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="1355" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -171,7 +186,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25093353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -211,6 +226,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AlarmButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AlarmSpin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520214362879" expanded="false" signature="6:78" ph="..." />
+            <marker date="1520214362879" expanded="true" signature="169:178" ph="{...}" />
+            <marker date="1520214362879" expanded="true" signature="233:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/ScrollTexture.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/WipersButton.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/LaserButton.cs" />
@@ -230,13 +265,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestructButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
-            <marker date="1520280335423" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520280335423" expanded="true" signature="121:770" ph="{...}" />
-            <marker date="1520280335423" expanded="true" signature="355:432" ph="{...}" />
-            <marker date="1520280335423" expanded="true" signature="487:496" ph="{...}" />
-            <marker date="1520280335423" expanded="true" signature="516:768" ph="{...}" />
-            <marker date="1520280335423" expanded="true" signature="546:601" ph="{...}" />
+            <marker date="1520392784949" expanded="false" signature="6:100" ph="..." />
+            <marker date="1520392784949" expanded="true" signature="149:1497" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="474:640" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="698:711" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="731:1063" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="761:889" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="1103:1495" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="1259:1445" ph="{...}" />
+            <marker date="1520392784949" expanded="true" signature="1318:1403" ph="/* if (time &lt; 10.55f) ... */" />
           </folding>
         </state>
       </provider>
